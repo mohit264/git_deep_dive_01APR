@@ -1,0 +1,500 @@
+   32  cd heads/
+   33  ls -a
+   34  clear
+   35  cd..
+   36  cd ,,
+   37  cd ..
+   38  cd ..
+   39  cd ..
+   40  echo "Ram Ram" | git hash-object --stdin -w
+   41  git cat-file -t
+   42  git cat-file -t 91d58d27b9983c6a6bb36f2b2a4b7edf9706b3c5
+   43  git cat-file -p 91d58d27b9983c6a6bb36f2b2a4b7edf9706b3c5
+   44  git count-objects
+   45  git status
+   46  git add .
+   47  git status
+   48  git commit -m "First Commit!"
+   49  git branch
+   50  git branch mohit
+   51  git branch
+   52  clear
+   53  cat .git/HEAD 
+   54  vim greet.txt 
+   55  git status
+   56  git remote -v
+   57  cd C:\RTR_GitSession
+   58  ls
+   59  git hash-object "Hello Domainkars"
+   60  echo "Hello Domainkars"
+   61  echo "Hello Domainkars" | git hash-object --stdin
+   62  echo "Hello Domainkars" | git hash-object --stdin -w
+   63  clear
+   64  git init
+   65  ls -a
+   66  echo "Hello Domainkars" | git hash-object --stdin -w
+   67  git init
+   68  echo "Hello Domainkars" | git hash-object --stdin -w
+   69  echo "Hello Domainkars"
+   70  echo "Hello Domainkars" | git hash-object --stdin
+   71  clear
+   72  git cat-file -t 960af8a2ba3564148a754901be4d983715cd35e9
+   73  git cat-file -p 960af8a2ba3564148a754901be4d983715cd35e9
+   74  echo "HEllo Domainkars" | git hash-object --stdin
+   75  git cat-file -p 960af8a2ba3564148a754901be4d983715cd35e9
+   76  git cat-file -p a6091d27412d573bda63a639fa4f12bf701d2145
+   77  echo "HEllo Domainkars" | git hash-object --stdin -w
+   78  git cat-file -p a6091d27412d573bda63a639fa4f12bf701d2145
+   79  cat 960af8a2ba3564148a754901be4d983715cd35e9
+   80  cat ./.git/objects/96/0af8a2ba3564148a754901be4d983715cd35e9 
+   81  git cat-file -p a6091d27412d573bda63a639fa4f12bf701d2145
+   82  clear
+   83  echo "Hello Domainkars" | git hash-object --stdin -w
+   84  echo "Hello Domainkars" | git hash-object --stdin
+   85  echo "Hello Domainkars" | git hash-object --stdin 
+   86  echo "Hello Domainkars" | git hash-object --stdin -w
+   87  git status
+   88  git add Domain_Greeting.txt
+   89  git status
+   90  git add Greetings/
+   91  git status
+   92  git commit -m "First Commit!"
+   93  git status
+   94  git log
+   95  git cat-file -p f9d5b48826f0335288b2a0a1d6f7c4de1125f3e9
+   96  git cat-file -p 06eaca
+   97  git cat-file -p 085e93
+   98  clear
+   99  git status
+  100  git log
+  101  git status
+  102  git add Greetings/Group Greeting.txt 
+  103  git add Greetings/Group Greeting.txt 
+  104  git add Greetings/Group\ Greeting.txt 
+  105  git status
+  106  git commit -m "Second Commit!"
+  107  git clear
+  108  clear
+  109  git status
+  110  clear
+  111  git log
+  112  git cat-file -p 6edbe
+  113  git cat-file -p deb020101
+  114  git cat-file -p cb62e66
+  115  git log
+  116  git cat-file -p f9d5b48
+  117  git cat-file -p 06eaca60
+  118  git cat-file -p 085e93962
+  119  git log
+  120  git tag -a domaistag "Git Content Tracker"
+  121  git tag -a domainstag 
+  122  vi
+  123  git tag
+  124  git cat-file -p domainstag
+  125  git log
+  126  clear
+  127  git branch
+  128  cd C:\BranchUnderstanding
+  129  git init
+  130  git branch
+  131  git add .
+  132  git branch
+  133  git commit -m "branch!"
+  134  git branch
+  135  git log
+  136  cd C:\RTR_GitSession
+  137  git log
+  138  git cat-file -p 6edbe709
+  139  git status
+  140  git add .
+  141  git commit -m "Added Sir's meeting experience"
+  142  clear
+  143  git log
+  144  git cat-file -p 9e84a695e5eae
+  145  clear
+  146  git branch
+  147  git branch font-rendering
+  148  git branch
+  149  git staus
+  150  git status
+  151  git add .
+  152  git commit -m "Added new file"
+  153  git branch
+  154  clear
+  155  git checkout font-rendering
+  156  git branch
+  157  git status
+  158  git log
+  159  git checkout master
+  160  git log
+  161  clear
+  162  git log
+  163  git checkout font-rendering
+  164  git status
+  165  git log
+  166  git checkout master
+  167  clear
+  168  git checkout f9d5b48826f0335288b
+  169  git status
+  170  git add .
+  171  git status
+  172  git commit -m "Added Helloworld"
+  173  git checkout master
+  174  git checkout 1e4bf23
+  175  git branch my-imp-work
+  176  git status
+  177  git branch
+  178  git checkout my-imp-work
+  179  git reset --hard
+  180  git status
+  181  git pull
+  182  cd /d/New\ folder/
+  183  cat .git/index 
+  184  git cat-file .git/index
+  185  clear
+  186  git restore Hello.txt
+  187  git status
+  188  cat .git/index 
+  189  git add .
+  190  cat .git/index 
+  191  git hash-object
+  192  git add
+  193  git hash-object "Hello from git inside out"
+  194  echo "Hello from git inside out"
+  195  echo "Hello from git inside out" | git hash-object
+  196  echo "Hello from git inside out" | git hash-object --stdin
+  197  echo "Hello from git inside out" | git hash-object --stdin -w
+  198  cd /d/Git_11_03_/
+  199  git init
+  200  echo "Hello from git inside out" | git hash-object --stdin -w
+  201  git cat-file 4326408d7c9ae39e22d3ec0056f8e7c9445321d9 -t
+  202  git cat-file 4326408d7c9ae39e22d3ec0056f8e7c9445321d9 -p
+  203  clear
+  204  git status
+  205  git add .
+  206  git commit -m "First Commit!"
+  207  git status
+  208  git log
+  209  clear
+  210  git cat-file e94a5542101faf3eef4f65b59b2814c0e6cba297 -t
+  211  git cat-file e94a5542101faf3eef4f65b59b2814c0e6cba297 -p
+  212  git cat-file 4847e6e66a965133f8e25a1e76ef7551429f638e -p
+  213  git cat-file 7cdeebfe9c3588998191ac07ee6b6cb30c004c00 -t
+  214  git cat-file 7cdeebfe9c3588998191ac07ee6b6cb30c004c00 -p
+  215  git status
+  216  git reset --hard
+  217  git add .
+  218  git status
+  219  git rm .gitignore.bak 
+  220  git status
+  221  git add .
+  222  git status
+  223  git commit -m "Adding gitgnore file"
+  224  git status
+  225  clear
+  226  git log
+  227  git cat-file 68c7bc4c4fde3016dbe2a3cfa2f3431d9818f433 -p
+  228  git cat-file 0fd0bc71a8c775809773b8cd520889dd006a53bd -p
+  229  git status
+  230  git status
+  231  git add HelloWorld.c
+  232  git status
+  233  git add Hello\ Universe.c 
+  234  git restore HelloWorld.c 
+  235  git restore Hello Universe.c
+  236  git restore Hello\ Universe.c
+  237  git status
+  238  git reset --hard
+  239  git status
+  240  git status
+  241  git add .
+  242  git status
+  243  clear
+  244  git status
+  245  git add .
+  246  git reset --hard
+  247  clear
+  248  git log
+  249  git cat-file e94a5542101f -p
+  250  git cat-file 4847e6e66a965133 -p
+  251  git cat-file 7cdeebfe9c358 -p
+  252  clear
+  253  git log
+  254  git cat-file 68c7bc4c4fde301 -p
+  255  git cat-file 0fd0bc71a8c77 -p
+  256  git cat-file 7cdeebfe9c358 -p
+  257  git tag -a second -m "My First tag"
+  258  git tag
+  259  git cat-file second -p
+  260  git commit --help
+  261  git log
+  262  git count-objects
+  263  clear
+  264  git branch
+  265  open .git/
+  266  cat .git/refs/master
+  267  cat .git/refs/heads/master
+  268  git cat-file 68c7bc4c4fde301 -p
+  269  git cat-file 68c7bc4c4fde301 -t
+  270  git add branch.c 
+  271  git status
+  272  git commit -m "Added branch.c as my third commit"
+  273  cat .git/refs/heads/master
+  274  clear
+  275  git cat-file second -p
+  276  git branch second-branch
+  277  git stat
+  278  git branch
+  279  cat .git/refs/heads/second-branch 
+  280  cat .git/refs/heads/master 
+  281  cat .git/HEAD 
+  282  git branch
+  283  git checkout second-branch
+  284  git branch
+  285  cat .git/HEAD 
+  286  cat .git/ORIG_HEAD
+  287  clear
+  288  touch new-file.c
+  289  vim new-file.c 
+  290  cat new-file.c 
+  291  git add new-file.c 
+  292  git commit -m "Added new file"
+  293  git log
+  294  clear
+  295  cat .git/HEAD 
+  296  cat .git/refs/heads/second-branch 
+  297  git log
+  298  clear
+  299  cat .git/HEAD 
+  300  cat .git/refs/heads/second-branch
+  301  git log -1
+  302  git log
+  303  git checkout 68c7bc4c4fde3016dbe2a3
+  304  cat .git/HEAD 
+  305  cat .git/refs/heads/master 
+  306  git branch
+  307  cat .git/refs/heads/second-branch
+  308  cat .git/HEAD 
+  309  clear
+  310  git branch
+  311  touch myOAuthFeature.c
+  312  vin myOAuthFeature.c 
+  313  vim myOAuthFeature.c 
+  314  cat myOAuthFeature.c 
+  315  touch logging.c
+  316  vim logging.c 
+  317  git add myOAuthFeature.c 
+  318  git commit "Added oAuth code"
+  319  git commit -m "Added oAuth code"
+  320  cat .git/HEAD 
+  321  git add logging.c 
+  322  git commit -m "Added logging"
+  323  cat .git/HEAD 
+  324  clear
+  325  git log
+  326  git checkout master
+  327  git branch
+  328  cat .git/HEAD 
+  329  cat .git/refs/heads/master 
+  330  git log
+  331  git checkout b8d262ae3efe6464d6b
+  332  git log
+  333  git branch myoAuthfeature
+  334  git branch
+  335  git clear
+  336  clear
+  337  git switch master
+  338  git branch myfeature1
+  339  git branch
+  340  git checkout myfeature1
+  341  git branch
+  342  git add .
+  343  git commit -m "Added my Feature1"
+  344  git checkout master
+  345  git branch feature2
+  346  git switch feature2
+  347  git add .
+  348  git commit -m "Added Feature2 by Sairam"
+  349  clear
+  350  git branch
+  351  git checkout myfeature1
+  352  cat .git/HEAD 
+  353  clear
+  354  git merge master
+  355  git checkout master
+  356  cat .git/HEAD 
+  357  clear
+  358  git branch
+  359  git merge myfeature1
+  360  git log
+  361  clear
+  362  git cat-file 19baea82782957fe5d -p
+  363  git branch
+  364  git switch myfeature1
+  365  git log
+  366  clear
+  367  cat .git/refs/heads/master 
+  368  git branch
+  369  cat .git/refs/heads/myfeature1
+  370  git switch feature2
+  371  clar
+  372  clear
+  373  git log
+  374  git checkout master
+  375  git branch
+  376  git checkout feature2
+  377  git branch
+  378  clear
+  379  git merge master
+  380  git status
+  381  git add branch.c 
+  382  git status
+  383  git commit 
+  384  git log
+  385  clear
+  386  git log -1
+  387  git cat-file a254371874b95123da -p
+  388  git cat-file 19baea82782957fe5d8f70cf935
+  389  clear
+  390  git cat-file 19baea82782957fe5d8f70cf935 -p
+  391  git checkout master
+  392  git log -1
+  393  git branch
+  394  git merge feature2
+  395  clear
+  396  git log
+  397  clear
+  398  git log -1
+  399  git revert a254371874b95123
+  400  git revert a254371874b95123 -m
+  401  git revert a254371874b95123 -m "Reverting last commit"
+  402  git revert a254371874b95123 --no-merged
+  403  clear
+  404  git add .
+  405  git status
+  406  git commit -m "Updated code"
+  407  git log -1
+  408  clear
+  409  git branch rebase-feature
+  410  git branch
+  411  git switch rebase-feature
+  412  clear
+  413  git add .
+  414  git commit -m "Added rebase feature"
+  415  git add .
+  416  git commit -m "Added rebase log feature"
+  417  git log -3
+  418  git switch master
+  419  clear
+  420  git branch
+  421  git add .
+  422  git commit -m "Added something in master"
+  423  clear
+  424  git log -2
+  425  git branch
+  426  git switch rebase-feature
+  427  clear
+  428  git log -3
+  429  clear
+  430  git branch
+  431  clear
+  432  git rebase master
+  433  git log
+  434  cd /c/rtr2021/
+  435  git ls-files > listOfFiles
+  436  cat listOfFiles | xargs wc -l
+  437  /d/git_inside_out/
+  438  cd /d/git_inside_out/
+  439  touch myfile
+  440  git add .
+  441  git reset --hard
+  442  git cat-file -p e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  443  git cat-file -t e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+  444  touch myfile
+  445  vim myfile 
+  446  git add .
+  447  git cat-file -p c78cea9902afe65962e26376ea87b1ddf93ed819
+  448  git commit -m "Added myfile"
+  449  git lot
+  450  git log
+  451  git cat-file -p faeebf1dc53be32929f49d57f75d8a5958f8d5d1
+  452  git cat-file -p d7a31b832568198ee22b096791cbd2e0c11a8c52
+  453  clear
+  454  cd /d/git_1_APR/
+  455  git hash-object 
+  456  clear
+  457  git hash-obeject "Hello, Git Deep Dive!"
+  458  echo "Hello, Git Deep Dive"
+  459  echo "Hello, Git Deep Dive" | git hash-object
+  460  echo "Hello, Git Deep Dive" | git hash-object --stdin
+  461  echo "hello, Git Deep Dive" | git hash-object --stdin
+  462  echo "Hello, Git Deep Dive" | git hash-object --stdin
+  463  echo "Hello, Git Deep Dive" | git hash-object --stdin -w
+  464  clear
+  465  clear
+  466  echo "Hello, Git Deep Dive" | git hash-object --stdin -w
+  467  git init
+  468  echo "Hello, Git Deep Dive" | git hash-object --stdin -w
+  469  git cat-file ac7249fc25da69eb0f131df984570fda7d43e550 -t
+  470  git cat-file ac7249fc25da69eb0f131df984570fda7d43e550 -p
+  471  touch Intro.txt
+  472  vim Intro.txt 
+  473  vim Intro.txt 
+  474  git add .
+  475  git commit -m "Added Intro file"
+  476  git log
+  477  clear
+  478  git log
+  479  git cat-file a9ee0383addbe4dbd029c45c1b41a96b683f3eff -t
+  480  git cat-file a9ee0383addbe4dbd029c45c1b41a96b683f3eff -p
+  481  git cat-file 6cf5afac552a5ce0aedccb8f8ef631ad5e7cdb79 -p
+  482  git cat-file ac7249fc25da69eb0f131df984570fda7d43e550 -p
+  483  git reset --hard
+  484  git status
+  485  touch intro2.txt
+  486  "Hello Friends" >> intro2.txt 
+  487  echo "Hello Friends" >> intro2.txt 
+  488  cat intro2.txt 
+  489  clear
+  490  git status
+  491  git add .
+  492  git status
+  493  git cat-file ba06163d8492dca2805827ebb4fa4fdf96215389 -t
+  494  git cat-file ba06163d8492dca2805827ebb4fa4fdf96215389 -p
+  495  git reset --hard
+  496  git cat-file ba06163d8492dca2805827ebb4fa4fdf96215389 -p
+  497  clear
+  498  git status
+  499  clear
+  500  git log
+  501  git tag -a FirstCommit -m "This is my special commit"
+  502  git tag
+  503  git cat-file FirstCommit -p
+  504  git cat-file 10e9800eb5d5e80b0c73ca7b4acd482da7060492 -p
+  505  git cat-file 10e9800eb5d5e80b0c73ca7b4acd482da7060492 -t
+  506  history
+  507  history > ../history.txt
+  508  git submodule add ./submodule
+  509  git submodule add ./submodule
+  510  cd ./submodule/
+  511  git init
+  512  clear
+  513  cd ..
+  514  clear
+  515  git log
+  516  git cat-file a9ee0383addbe4dbd029c45c1b41a96b683f3eff -p
+  517  git cat-file 6cf5afac552a5ce0aedccb8f8ef631ad5e7cdb79 -p
+  518  echo "Added Intro2 File For Second Commit" > Intro2.txt
+  519  cat Intro2.txt 
+  520  gi status
+  521  git status
+  522  clear
+  523  git add Intro2.txt
+  524  git status
+  525  git commit -m "My second Commit"
+  526  git status
+  527  git log
+  528  clear
+  529  git log
+  530  git cat-file 95044cfd0cf -p
+  531  history > git_commands.txt
