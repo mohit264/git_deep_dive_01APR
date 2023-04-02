@@ -1,1 +1,3 @@
-Today at first we will seeing the rebase topic
+Agenda: Today at first we will seeing the rebase topic.
+Important Note: Merge and rebase are very much important topics in Git. Mastering those topics will help you in taking informed decisions when to use which.
+
