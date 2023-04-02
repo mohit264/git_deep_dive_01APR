@@ -1,0 +1,1 @@
+Merge and rebase are very much important topics in Git. Mastering those topics will help you in taking informed decisions when to use which.
