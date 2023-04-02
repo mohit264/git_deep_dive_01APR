@@ -1,0 +1,24 @@
+commit cfe2e421f7f5d29353343e75c9357120901e12f6
+Merge: e04b79d 6cd4f92
+Author: Mohit Dharmadhikari <mohit.dharma@gmail.com>
+Date:   Sun Apr 2 09:53:22 2023 +0530
+
+    Merge branch 'master' into feature1
+
+commit 6cd4f9220f6b90ad4de94ffb32a2853c3dc08f44
+Author: Mohit Dharmadhikari <mohit.dharma@gmail.com>
+Date:   Sun Apr 2 09:43:09 2023 +0530
+
+    Added rebase for master
+
+commit e04b79dcbf8ac308f5b9896953388b7cd6368e22
+Author: Mohit Dharmadhikari <mohit.dharma@gmail.com>
+Date:   Sun Apr 2 09:37:03 2023 +0530
+
+    Added Rebase file
+
+commit f7c00417b1160ef951c8f1674af531986ca7850e
+Author: Mohit Dharmadhikari <mohit.dharma@gmail.com>
+Date:   Sat Apr 1 13:55:38 2023 +0530
+
+    Added detached file
