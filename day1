@@ -1,0 +1,500 @@
+    3  git cat-file  4c26105076ac -p
+    4  git cat-file 665edd9c6 -p
+    5  git config user.name
+    6  git config user.email
+    7  clear
+    8  git status
+    9  git restore greeting.txt
+   10  git cat-file 4c2610 -p
+   11  clear
+   12  git cat-file 4c2610 -p
+   13  git cat-file 4c2610 -t
+   14  clear
+   15  git branch
+   16  git branch -b feature/task1
+   17  git branch feature/task1
+   18  clear
+   19  git branch
+   20  cat .git/refs/heads/master
+   21  touch greeting2.txt
+   22  vim greeting2.txt\
+   23  cat greeting2.txt 
+   24  git add .
+   25  git commit -m "Added greeting2"
+   26  cat .git/refs/heads/master
+   27  clear
+   28  cat .git/refs/heads/master
+   29  git branch
+   30  git branch feature/task1
+   31  git branch Feature/task1
+   32  clear
+   33  git switch feature/task1
+   34  git switch master
+   35  cat .git/refs/heads/master
+   36  cat .git/refs/heads/feature/task1
+   37  git tag -a mvp -m "This is my baseline of production branch"
+   38  git tag
+   39  touch security-vulnarability.txt
+   40  vim security-vulnarability.txt 
+   41  git add .
+   42  git commit -m "Developer introduced critical bug
+   43  clear
+   44  clear
+   45  cat .git/refs/heads/master
+   46  clear
+   47  cat .git/refs/heads/master
+   48  cat .git/refs/tags/mvp 
+   49  git cat-file 22de9bb -p
+   50  git cat-file 446e91859 -p
+   51  history > commands_16_08.txt
+   52  cat commands_16_08.txt 
+   53  clear
+   54  git tag
+   55  git cat-file mvp
+   56  git cat-file mvp -t
+   57  git cat-file 446e91859ffcfe1cdebb52b7ce83500d18104672 -t
+   58  clear
+   59  git cat-file 446e91859ffcfe1cdebb52b7ce83500d18104672 -p
+   60  clear
+   61  git log
+   62  git cat-file 22de9bbfc48c88 -p
+   63  git cat-file 28121d57cd7eb24 -p
+   64  clear
+   65  git log -1
+   66  git cat-file 22de9bbfc48c -p
+   67  git cat-file 6ed9479bf83 -p
+   68  clear
+   69  git log -2
+   70  git cat-file 28121d57cd7eb -p
+   71  git cat-file 4c26105076a -p
+   72  git status
+   73  clear
+   74  git add commands_16_08.txt 
+   75  git commit -m "Added commands history till 16_08"
+   76  git cat-file 0a66b41 -p
+   77  git branch
+   78  git switch feature/task1 
+   79  git branch
+   80  clear
+   81  git switch master
+   82  git branch
+   83  cat .git/HEAD 
+   84  git switch feature/task1 
+   85  cat .git/HEAD 
+   86  git log -1
+   87  echo "Understanding Head Concept!" > head.txt
+   88  cat head.txt 
+   89  clear
+   90  git add .
+   91  git status
+   92  git commit -m "Added Head file"
+   93  git cat-file 9af388a -p
+   94  git switch master
+   95  cat .git/HEAD 
+   96  clear
+   97  git log -3
+   98  git checkout 28121d57cd7eb
+   99  clear
+  100  cat .git/HEAD 
+  101  git add .
+  102  git status
+  103  echo "Understanding Detached Head Concept" > detached.txt
+  104  cat detached.txt 
+  105  clear
+  106  git add .
+  107  git status
+  108  git commit -m "Added git objects diagram and detached.txt file"
+  109  git log -2
+  110  clear
+  111  cat .git/HEAD 
+  112  echo "Doing research on Federated Authentication" > federated.txt
+  113  cat federated.txt 
+  114  git add .
+  115  git status
+  116  git commit -m "added federated authentication"
+  117  git switch master
+  118  clear
+  119  git log -1
+  120  git log -2
+  121  echo "Fixed Critical Security bug in the productiongit log -2!" > prod-bug-fix.txt
+  122  cat prod-bug-fix.txt 
+  123  clear
+  124  git add .
+  125  git commit -m "Added production bug fix changes"
+  126  git log -1
+  127  git log -4
+  128  clear
+  129  git checkout 979663a
+  130  git switch -c feature/federatedAuth
+  131  git add .
+  132  git commit -m "Added detached head solution file"
+  133  clear
+  134  git swithch master
+  135  git switch master
+  136  clear
+  137  git log -1
+  138  git branch feature/userRegistration
+  139  git switch -c feature/userRegistration 
+  140  git switch feature/userRegistration 
+  141  clear
+  142  echo "// Create a new user registration logic goes here" > userRegistration.py
+  143  cat userRegistration.py 
+  144  echo "// User Login logic goes here" > userLogin.py
+  145  ls
+  146  git add .
+  147  git status
+  148  git commit -m "Added User registration and login related files"
+  149  clear
+  150  git switch -c feature/userLogin
+  151  echo " This file is related to User Login. Senior Developer Shruti is undertaking this task" >  userLogin.py
+  152  echo "Create two strings Username and password for textboxes in website" > userModel.py
+  153  ls
+  154  git add userLogin.py userModel.py 
+  155  ls
+  156  git status
+  157  git restore userLogin.py userModel.py
+  158  git reset --hard
+  159  clear
+  160  git switch feature/userRegistration 
+  161  git del
+  162  git rm
+  163  git delete
+  164  git --help
+  165  clear
+  166  git branch
+  167  git branch --help
+  168  git branch -h
+  169  clear
+  170  git branch -D feature/userLogin
+  171  ls
+  172  git switch master
+  173  git switch -c feature/userLogin
+  174  clear
+  175  echo " This is the User Login feature. Senior Developer Shriti is undertaking this task. " > userLogin.py
+  176  ls
+  177  echo "Create two new string properties userName and password to store the login information." > loginModel.py
+  178  ls
+  179  git add .
+  180  git status
+  181  git commit -m "Added User login and model related files."
+  182  clear
+  183  git log -1
+  184  git log -2
+  185  cat .git/refs/heads/feature/userRegistration 
+  186  clear
+  187  git switch feature/userRegistration 
+  188  cat .git/HEAD 
+  189  clear
+  190  git merge feature/userLogin 
+  191  git status
+  192  vim userLogin.py 
+  193  git status
+  194  clear
+  195  git status
+  196  git add userLogin.py 
+  197  git status
+  198  git commit 
+  199  git log -1
+  200  clear
+  201  git status
+  202  git log -1
+  203  git cat-file 
+  204  80dad51
+  205  git cat-file 80dad519c3 -p
+  206  clear
+  207  git cat-file 80dad519c3 -p
+  208  git switch feature/userLogin 
+  209  clear
+  210  git log -1
+  211  git merge feature/userRegistration 
+  212  git cat-file 80dad51 -p
+  213  clear
+  214  git switch maste
+  215  git switch master
+  216  clear
+  217  git switch -c feature/rebase_feature1
+  218  echo "Understanding Rebase concept in perspective of Merge" > feature_rebase1.txt
+  219  cat feature_rebase1.txt 
+  220  git status
+  221  git add .
+  222  git status
+  223  clear
+  224  git commit -m "Added 2 files in Rebase1"
+  225  ls
+  226  clear
+  227  git log -2
+  228  git switch master
+  229  git switch -c feature/rebase_feature2
+  230  clear
+  231  echo "This is just a simple text file to add some commit in rebase 2" > rebase2.txt
+  232  git add .
+  233  git status
+  234  git commit -m "Added rebase2 file"
+  235  clear
+  236  git log -2
+  237  git switch feature/rebase_feature1
+  238  clear
+  239  git log -2
+  240  git branch
+  241  clear
+  242  git rebase feature/rebase_feature2
+  243  git log -1
+  244  git log -2
+  245  clear
+  246  git log -2
+  247  clear
+  248  git log -3
+  249  clear
+  250  ls
+  251  cat rebase2.txt 
+  252  clear
+  253  git switch -c feature/rebase_feature2
+  254  clear
+  255  ls
+  256  clear
+  257  git switch -c feature/rebase_feature1
+  258  git switch feature/rebase_feature1
+  259  clear
+  260  git log -3
+  261  clear
+  262  git cat-file bec60ed76d1942e -p
+  263  clear
+  264  git log -3
+  265  clear
+  266  git log -1
+  267  git cat-file e5bd563d34b6b6a -p
+  268  clear
+  269  git cat-file e5bd563d34b6b6a -p
+  270  git cat-file 551cfbb15f -p
+  271  git add .
+  272  git status
+  273  git commit -m "Added new rebase file"
+  274  clear
+  275  git switch master
+  276  clear
+  277  git remote add origin https://github.com/mohit264/git_14_08_23.git
+  278  git push
+  279  git push --set-upstream origin master
+  280  git switch feature/federatedAuth 
+  281  git push
+  282  git push --set-upstream origin feature/federatedAuth
+  283  git push --set-upstream origin feature/userLogin 
+  284  git switch feature/userLogin 
+  285  clear
+  286  git push --set-upstream origin feature/userLogin 
+  287  git switch feature/userRegistration 
+  288  git push --set-upstream origin feature/userRegistration 
+  289  git switch feature/rebase_feature1
+  290  git push --set-upstream origin feature/rebase_feature1
+  291  clear
+  292  git switch feature/rebase_feature2
+  293  git push --set-upstream origin feature/rebase_feature2
+  294  git branch 
+  295  git branch -a
+  296  clear
+  297  git switch master
+  298  clear
+  299  cat .git/refs/heads/master 
+  300  cat .git/refs/remotes/origin/master
+  301  git fetch
+  302  git pull
+  303  dir
+  304  cls
+  305  clear
+  306  cd D:
+  307  cd /d/Git_18_11_23/
+  308  touch "file.txt"
+  309  ls
+  310  echo "Hello All" > file.txt 
+  311  cat file.txt 
+  312  clear
+  313  git init
+  314  echo "Hello World!" | git hash-object
+  315  echo "Hello World!" | git hash-object --stdin
+  316  echo "Hello World!" | git hash-object --stdin -w
+  317  git cat-file 980a0d5f19a64b4b30a87d4206aade58726b60e3 -t
+  318  git cat-file 980a0d5f19a64b4b30a87d4206aade58726b60e3 -p
+  319  git cat-file --help
+  320  clear
+  321  echo "Hello World!" > "Hello.txt"
+  322  ls
+  323  cat Hello.txt 
+  324  clear
+  325  git status
+  326  git add Hello.txt
+  327  git status
+  328  git commit -m "Added Hello File"
+  329  clear
+  330  git status
+  331  git log
+  332  git cat-file 327323f -t
+  333  git cat-file 327323f -p
+  334  git cat-file fec638dc267f605 -p
+  335  cat Hello.txt 
+  336  clear
+  337  vim Hello.txt 
+  338  cat Hello.txt 
+  339  git status
+  340  git add Hello.txt 
+  341  git status
+  342  echo "Hello World" | git hash-object --stdin
+  343  clear
+  344  git status
+  345  git restore Hello.txt
+  346  git status
+  347  git reset --hard
+  348  git status
+  349  clear
+  350  ls
+  351  cat Hello.txt 
+  352  git log
+  353  git status
+  354  git reset --hard
+  355  ls
+  356  clear
+  357  git log\
+  358  git cat-file 327323f314f87e6 -p
+  359  git cat-file fec638dc267f60
+  360  clear
+  361  git cat-file fec638dc267f60 -p
+  362  git log
+  363  git cat-file 327323f314f8 -p
+  364  git cat-file fec638dc267 -p
+  365  clear
+  366  git status
+  367  history
+  368  clear
+  369  ls
+  370  history > file.txt
+  371  cat file.txt 
+  372  git status
+  373  clear
+  374  git add .
+  375  git stauts
+  376  git status
+  377  git commit -m "Added today's topic discussion"
+  378  git status
+  379  git reset --hard
+  380  clear
+  381  git log
+  382  ls
+  383  git cat-file -p 5e4fe9ad9e6285
+  384  git cat-fle 7ce694514165 -p
+  385  git cat-file 7ce694514165 -p
+  386  git cat-file -p 327323f314f8
+  387  clear
+  388  git cat-file -p 327323f314f8
+  389  git cat-file -p fec638dc267f6
+  390  git cat-file 7ce694514165 -p
+  391  clear
+  392  git cat-file -p fec638dc267f6
+  393  git cat-file 7ce694514165 -p
+  394  git cat-file 7ce694514165 -p
+  395  git log
+  396  git cat-file 5e4fe9ad -p
+  397  clear
+  398  git cat-file -p 327323f31
+  399  git cat-file -p 327323f31 -t
+  400  git cat-file 327323f31 -t
+  401  clear
+  402  git tag -a "Second_session" -m "Branches"
+  403  git tag
+  404  git cat-file Second_session -p
+  405  git cat-file Second_session -t
+  406  git cat-file -p 9a68a939b39ddb0
+  407  clear
+  408  ls
+  409  git add Git_object_model_complete.png 
+  410  git status
+  411  git commit -m "Added Git object model diagram with tag"
+  412  clear
+  413  git log
+  414  git cat-file -p ea89a4a91
+  415  clear
+  416  git cat-file -p 432c120fb55c
+  417  cd ..
+  418  mkdir branch_temp
+  419  cd branch_temp/
+  420  clear
+  421  git init
+  422  echo "First commit to create master" > branch.txt
+  423  cat branch.txt 
+  424  git add .
+  425  git commit -m "Added new file"
+  426  git log
+  427  clear
+  428  cd /d/Git_18_11_23/
+  429  clear
+  430  cat .git/refs/heads/
+  431  ls .git/refs/heads
+  432  cat .git/refs/heads/master
+  433  cat .git/refs/tags
+  434  cat .git/refs/tags/Second_session 
+  435  clear
+  436  git log -2
+  437  clear
+  438  git log -3
+  439  clear
+  440  git cat-file Second_session
+  441  git cat-file Second_session -p
+  442  clear
+  443  git log -2
+  444  cat .git/refs/heads/master 
+  445  cat .git/refs/tags/Second_session 
+  446  cat .git/HEAD 
+  447  clear
+  448  echo "Hello Branching" > branch.txt
+  449  git add branch.txt 
+  450  git commit -m "Added branch.txt"
+  451  cat .git/refs/heads/master 
+  452  cat .git/HEAD 
+  453  clear
+  454  git branch feature/userRegistration
+  455  git branch
+  456  git switch feature/userRegistration 
+  457  ls .git/refs/heads/
+  458  ls .git/refs/heads/feature/
+  459  cat .git/refs/heads/master 
+  460  cat .git/refs/heads/feature/userRegistration 
+  461  ls .git/HEAD 
+  462  cat .git/HEAD 
+  463  clear
+  464  mkdir 01-WhiteTriangle
+  465  cd 01-WhiteTriangle/
+  466  ls
+  467  echo "// Added White color Perspective triangle" > ogl.cpp
+  468  ls ogl.cpp
+  469  cat ogl.cpp
+  470  git status
+  471  clear
+  472  git add .
+  473  git status
+  474  git commit -m "Added perspective white triangle source code"
+  475  clear
+  476  git log -2
+  477  git cat-file -p f620269f7
+  478  clear
+  479  git cat-file -p 6ad294b0b80980
+  480  git cat-file -p 617f55c3ede
+  481  clear
+  482  git switch master
+  483  cd..
+  484  cd ..
+  485  cat .git/HEAD 
+  486  clear
+  487  git log
+  488  clear
+  489  git log
+  490  git checkout xyz
+  491  clear
+  492  git checkout feature/userRegistration 
+  493  git checkout master
+  494  clear
+  495  git checkout 5e4fe9ad9e628
+  496  cat .git/HEAD 
+  497  clear
+  498  history > day2.txt
+  499  cat day2.txt 
+  500  cd /d
+  501  cd git_1_APR/
+  502  history > day1
